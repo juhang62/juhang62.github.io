@@ -3,7 +3,7 @@ layout: post
 title: test math
 ---
 
-{% include lib/mathjax.html %}
+{% include mathjax.html %}
 
 test math $$\alpha$$
 
