@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Top 10 Quants Ranked by Google Search
+title: test math
 ---
 
+{% include lib/mathjax.html %}
 
 test math $$\alpha$$
