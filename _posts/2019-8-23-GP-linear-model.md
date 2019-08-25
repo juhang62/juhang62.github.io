@@ -17,3 +17,11 @@ This joint multivariate normal makes Gaussian processes desirable
 for regression, in which inferences on new test points can be easily
 made by conditioning on training data. Next we show how GP regression
 is connected to linear regression. 
+
+In equation \eqref{eq:sample}, we find the value of an
+interesting integral:
+
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+  \label{eq:sample}
+\end{equation}
