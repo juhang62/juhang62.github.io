@@ -34,12 +34,13 @@ y & = & f(\mathbf{x})+\epsilon\nonumber
 \end{eqnarray}$$
 where $\mathbf{x}$ is the input vector, $\mathbf{w}$ is the parameter
 vector, $\epsilon\sim\mathcal{N}(0,\sigma_{n}^{2}$) is noise. In
-a Bayesian approach, we assume a prior $\boldsymbol{w}\sim\mathcal{N}(0,\sigma^{2}I)$.
+a Bayesian approach, we assume a prior $\mathbf{w}\sim\mathcal{N}(0,\sigma^{2}I)$.
 Thus given certain $\mathbf{x}$, $f$ is a linear combination of
 normal random variables and hence is also normal. Moreover, for a
 finite collection of $\mathbf{x}$, their corresponding $f$'s is
 a multivariate Gaussian. Therefore, $f$ is a Gaussian process. Its
 mean function is
+
 $$m(\boldsymbol{x})=E[f(\mathbf{x})]=E[\mathbf{x}^{T}\mathbf{w}]=0,$$
 
 and its covariance function is 
