@@ -64,8 +64,8 @@ becomes $k(\mathbf{x},\mathbf{x}')=\sigma^{2}\boldsymbol{\phi}(\mathbf{x})^{T}\b
 it follows that 
 
 
-$$\begin{eqnarray*}
-k(\mathbf{x},\mathbf{x}') & = & \frac{\sigma^{2}}{N}\sum_{i=1}^{N}\exp(-\frac{(x-c_{i})^{2}}{2\ell^{2}})\exp(-\frac{(x'-c_{i})^{2}}{2\ell^{2}})
+$$\begin{equation}
+k(\mathbf{x},\mathbf{x}')  =   \frac{\sigma^{2}}{N}\sum_{i=1}^{N}\exp(-\frac{(x-c_{i})^{2}}{2\ell^{2}})\exp(-\frac{(x'-c_{i})^{2}}{2\ell^{2}})
 \end{eqnarray}$$
 
 
@@ -73,9 +73,9 @@ where we have scaled the variance of $\mathbf{w}$ to be $\sigma^{2}/N$.
 Formally, we let $N\to\infty$ and obtain
 
 
-$$\begin{eqnarray*}
-k(\mathbf{x},\mathbf{x}') & \to & \sigma^{2}\int_{-\infty}^{\infty}\exp(-\frac{(x-c_{i})^{2}}{2\ell})\exp(-\frac{(x'-c_{i})^{2}}{2\ell})dc\\
- & = & \sqrt{\pi}\sigma^{2}\exp(-\frac{(x-x')^{2}}{2(\sqrt{2}\ell)^{2}})
+$$\begin{eqnarray}
+k(\mathbf{x},\mathbf{x}') & \to & \sigma^{2}\int_{-\infty}^{\infty}\exp(-\frac{(x-c_{i})^{2}}{2\ell})\exp(-\frac{(x'-c_{i})^{2}}{2\ell})dc \nonumber  \\ 
+ & = & \sqrt{\pi}\sigma^{2}\exp(-\frac{(x-x')^{2}}{2(\sqrt{2}\ell)^{2}}) \nonumber 
 \end{eqnarray}$$
 
 
