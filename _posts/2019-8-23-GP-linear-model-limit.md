@@ -1,6 +1,6 @@
 ---
 layout: post
-title: test math
+title: How A Gaussian Process Arises as a Limit of Linear Regression
 ---
 
 {% include mathjax.html %}
@@ -60,13 +60,11 @@ $\boldsymbol{\phi}(x)=[1,x,x^{2},\cdots]$, Fourier $\boldsymbol{\phi}(x)=[\sin(x
 radial basis functions $\boldsymbol{\phi}(x)=[e^{-(x-1)^{2}},e^{-(x-2)^{2}},e^{-(x-3)^{2}},\cdots]$.
 Since the model remains linear in $\mathbf{w},$ results from simple
 linear regression are extended directly. In particular,\eqref{eq:xTx}
-becomes $k(\mathbf{x},\mathbf{x}')=\sigma^{2}\boldsymbol{\phi}(\mathbf{x})^{T}\boldsymbol{\phi}(\mathbf{x}')$.
-
-Considering a set of $N$ radial basis functions centered equidistantly,
+becomes $k(\mathbf{x},\mathbf{x}')=\sigma^{2}\boldsymbol{\phi}(\mathbf{x})^{T}\boldsymbol{\phi}(\mathbf{x}')$.Considering a set of $N$ radial basis functions centered equidistantly,
 it follows that 
 
 
-$$\begin{eqnarray}
+$$\begin{eqnarray*}
 k(\mathbf{x},\mathbf{x}') & = & \frac{\sigma^{2}}{N}\sum_{i=1}^{N}\exp(-\frac{(x-c_{i})^{2}}{2\ell^{2}})\exp(-\frac{(x'-c_{i})^{2}}{2\ell^{2}})
 \end{eqnarray}$$
 
@@ -75,7 +73,7 @@ where we have scaled the variance of $\mathbf{w}$ to be $\sigma^{2}/N$.
 Formally, we let $N\to\infty$ and obtain
 
 
-$$\begin{eqnarray}
+$$\begin{eqnarray*}
 k(\mathbf{x},\mathbf{x}') & \to & \sigma^{2}\int_{-\infty}^{\infty}\exp(-\frac{(x-c_{i})^{2}}{2\ell})\exp(-\frac{(x'-c_{i})^{2}}{2\ell})dc\\
  & = & \sqrt{\pi}\sigma^{2}\exp(-\frac{(x-x')^{2}}{2(\sqrt{2}\ell)^{2}})
 \end{eqnarray}$$
