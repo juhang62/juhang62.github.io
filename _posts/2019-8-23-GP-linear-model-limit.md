@@ -66,7 +66,7 @@ it follows that
 
 $$\begin{equation}
 k(\mathbf{x},\mathbf{x}')  =   \frac{\sigma^{2}}{N}\sum_{i=1}^{N}\exp(-\frac{(x-c_{i})^{2}}{2\ell^{2}})\exp(-\frac{(x'-c_{i})^{2}}{2\ell^{2}})
-\end{eqnarray}$$
+\end{equation}$$
 
 
 where we have scaled the variance of $\mathbf{w}$ to be $\sigma^{2}/N$.
