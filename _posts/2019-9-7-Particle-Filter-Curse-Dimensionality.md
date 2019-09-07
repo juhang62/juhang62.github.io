@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Particle Filters Are Curved by Dimensionality? 
+title: How Particle Filters Are Cursed by Dimensionality? 
 ---
 
 {% include mathjax.html %}
