@@ -5,7 +5,7 @@ title: A Demo of Artificial Neural Networks Applied to Linear Data
 
 {% include mathjax.html %}
 
-Artificial neural networks (ANN) are known to be a universal function approximator (see [Universal approximation theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) and a excellent visual explanation [here](https://http://neuralnetworksanddeeplearning.com/chap4.html)). This nice theory, however, does not tell us about the learnability of the parameters. In practice, it is more a kind of art to get ANN to work. To gain some feelings about how ANN works in practice, let’s apply it to a regression problem on some simplest data we can think of, e.g., data generated from a linear model $$y=\beta_1 x+ \beta_0 \epsilon, \epsilon \sim N(0,\sigma^2)$$ 
+Artificial neural networks (ANN) are known to be a universal function approximator (see [Universal approximation theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) and [a excellent visual explanation](https://http://neuralnetworksanddeeplearning.com/chap4.html)). This nice theory, however, does not tell us about the learnability of the parameters. In practice, it is more a kind of art to get ANN to work. To gain some feelings about how ANN works in practice, let’s apply it to a regression problem on some simplest data we can think of, e.g., data generated from a linear model $$y=\beta_1 x+ \beta_0 + \epsilon, \epsilon \sim N(0,\sigma^2).$$ A copy of the jupyter notebook can be found [here](https://gist.github.com/juhang62/bf7b1acd7bea8cdcca5447c10e9e9233)
 
 
 ```
