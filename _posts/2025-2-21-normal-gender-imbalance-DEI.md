@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gender imbalance in college enrollment and DEI’s conflicted goals: insights gained from normal distributions
+title: testn
 ---
 
 {% include mathjax.html %}
