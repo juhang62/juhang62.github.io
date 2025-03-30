@@ -5,7 +5,7 @@ title: "Gender imbalance in college enrollment and DEI's conflicted goals: insig
 
 {% include mathjax.html %}
 
-Tulane University leads a national trend in higher female enrollment: roughly two-thirds of the school's incoming freshman class are women ((here)[https://archive.ph/H0NIZ] is an news article about this).  As a professor, I found the reality in a classroom even more stark than what the number suggests, maybe because boys skip classes more often.  For those who attend my class, I need to find a way to engage them. 
+Tulane University leads a national trend in higher female enrollment: roughly two-thirds of the school's incoming freshman class are women ([here](https://archive.ph/H0NIZ) is an news article about this).  As a professor, I found the reality in a classroom even more stark than what the number suggests, maybe because boys skip classes more often.  For those who attend my class, I need to find a way to engage them. 
 
 I teach an introductory statistic course. My students just learned normal distributions. It would be interesting to use normal distributions to shed light on this issue. To make the modeling accessible to the level of the students, some simplifying assumptions are needed. 
 
